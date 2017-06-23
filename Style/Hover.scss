@@ -1,0 +1,64 @@
+@import "./Vrednosti";
+
+.footer{
+
+  i:hover{
+    color: $PrimaryColor;
+    -webkit-transition: color 0.3s;
+    -moz-transition:    color 0.3s;
+    -o-transition:      color 0.3s;
+    transition:         color 0.3s;
+
+  }
+
+}
+
+
+.header {
+
+  .leftSide{
+    ul{
+      li{
+        p{
+          a:hover{
+            color: $PrimaryColor;
+            -webkit-transition: color 0.3s;
+            -moz-transition: color 0.3s;
+            -o-transition: color 0.3s;
+            transition: color 0.3s;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+.hoverDrop{
+
+  a:hover{
+    color: $PrimaryColor !important;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+
+  }
+
+}
+
+.navOverlayFIT{
+
+  i:hover{
+    color: $PrimaryColor;
+    -webkit-transition: color 0.3s;
+    -moz-transition:    color 0.3s;
+    -o-transition:      color 0.3s;
+    transition:         color 0.3s;
+
+  }
+
+}
+
+

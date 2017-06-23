@@ -1,0 +1,916 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+.footer i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.header .leftSide ul li p a:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.hoverDrop a:hover {
+  color: #FF870D !important;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.navOverlayFIT i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.wrapper .barsDropDown {
+  display: none; }
+
+.header {
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  position: relative; }
+  .header .leftSide {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px; }
+    .header .leftSide ul {
+      display: inline-block;
+      margin: 0 auto; }
+      .header .leftSide ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 auto; }
+      .header .leftSide ul h1 {
+        padding-right: 50px; }
+        .header .leftSide ul h1 a {
+          color: #FF870D;
+          text-decoration: none; }
+      .header .leftSide ul p {
+        padding-right: 20px;
+        margin: 0; }
+        .header .leftSide ul p .activeLink {
+          color: #FF870D;
+          text-decoration: none;
+          padding-bottom: 2px;
+          border-bottom: 2px solid #FF870D; }
+        .header .leftSide ul p a {
+          text-decoration: none;
+          color: black; }
+  .header .rightSide {
+    display: inline-block;
+    position: relative;
+    float: right; }
+    .header .rightSide ul {
+      display: inline-block;
+      margin: 0 auto;
+      padding: 0; }
+      .header .rightSide ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 5px; }
+        .header .rightSide ul li a {
+          color: black;
+          text-decoration: none; }
+          .header .rightSide ul li a img {
+            width: 200px;
+            height: 50px;
+            object-fit: cover; }
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+.footer i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.header .leftSide ul li p a:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.hoverDrop a:hover {
+  color: #FF870D !important;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.navOverlayFIT i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.footer {
+  position: fixed;
+  top: 900px; }
+  .footer .faceInstaTwitter {
+    display: block; }
+    .footer .faceInstaTwitter ul {
+      display: inline-block;
+      margin-left: 20px; }
+      .footer .faceInstaTwitter ul li {
+        list-style: none;
+        display: inline-block; }
+    .footer .faceInstaTwitter a {
+      padding-right: 40px;
+      text-decoration: none;
+      color: black; }
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+.footer i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.header .leftSide ul li p a:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.hoverDrop a:hover {
+  color: #FF870D !important;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.navOverlayFIT i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+@media screen and (max-width: 1020px) {
+  .header {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    position: relative; }
+    .header .leftSide {
+      display: inline-block;
+      position: relative;
+      margin-left: 20px; }
+      .header .leftSide ul {
+        display: inline-block;
+        margin: 0 auto; }
+        .header .leftSide ul li {
+          list-style: none;
+          display: inline-block;
+          margin: 0 auto; }
+        .header .leftSide ul h1 {
+          padding-right: 20px; }
+          .header .leftSide ul h1 a {
+            color: #FF870D;
+            text-decoration: none; }
+        .header .leftSide ul p {
+          padding-right: 10px;
+          margin: 0; }
+          .header .leftSide ul p .activeLink {
+            color: #FF870D;
+            text-decoration: none;
+            padding-bottom: 2px;
+            border-bottom: 2px solid #FF870D; }
+          .header .leftSide ul p a {
+            text-decoration: none;
+            color: black; } }
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+@media screen and (max-width: 900px) {
+  .header .rightSide {
+    display: inline-block;
+    position: relative;
+    float: right; }
+    .header .rightSide ul {
+      display: inline-block;
+      margin: 0 auto;
+      padding: 0; }
+      .header .rightSide ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 auto;
+        padding-top: 25px; }
+        .header .rightSide ul li a {
+          color: black;
+          text-decoration: none; }
+          .header .rightSide ul li a img {
+            width: 100px;
+            height: 30px;
+            object-fit: cover; } }
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+.footer i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.header .leftSide ul li p a:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.hoverDrop a:hover {
+  color: #FF870D !important;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.navOverlayFIT i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.navOver .contentOverlay .topContentMenu {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 110%;
+  max-width: 180px;
+  font-size: 25px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
+  .navOver .contentOverlay .topContentMenu li {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 10px; }
+    .navOver .contentOverlay .topContentMenu li a {
+      color: #000;
+      text-decoration: none; }
+    .navOver .contentOverlay .topContentMenu li .linkDrop {
+      color: #FF870D; }
+.navOver .contentOverlay .navOverlayFIT {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 350px;
+  width: 100%; }
+  .navOver .contentOverlay .navOverlayFIT ul {
+    display: inline-block;
+    margin-left: 40px; }
+    .navOver .contentOverlay .navOverlayFIT ul li {
+      list-style: none;
+      display: inline-block; }
+  .navOver .contentOverlay .navOverlayFIT a {
+    padding-right: 60px;
+    text-decoration: none;
+    color: black; }
+.navOver .contentOverlay .btnExitLogo {
+  display: block; }
+  .navOver .contentOverlay .btnExitLogo .closeDiv {
+    margin-left: 0;
+    margin-right: 0;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    float: left; }
+    .navOver .contentOverlay .btnExitLogo .closeDiv .close {
+      display: inline-block;
+      text-decoration: none;
+      color: #FF870D; }
+  .navOver .contentOverlay .btnExitLogo .divdropDownLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+    .navOver .contentOverlay .btnExitLogo .divdropDownLogo .dropDownLogo {
+      color: #FF870D;
+      text-decoration: none;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      position: relative; }
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+.footer i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.header .leftSide ul li p a:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.hoverDrop a:hover {
+  color: #FF870D !important;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.navOverlayFIT i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+@media screen and (max-width: 760px) {
+  #navigation {
+    z-index: 1;
+    display: none; }
+
+  .wrapper {
+    z-index: -1; }
+
+  .header {
+    padding: 0;
+    position: relative;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto; }
+    .header .barsDropDown {
+      display: inline-block;
+      position: fixed;
+      left: 5%; }
+      .header .barsDropDown a {
+        color: #FF870D; }
+    .header .leftSide {
+      padding: 0;
+      position: relative;
+      display: block;
+      width: 150px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-left: auto;
+      margin-right: auto; }
+      .header .leftSide ul {
+        position: relative;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto; }
+        .header .leftSide ul li {
+          list-style: none;
+          display: inline-block;
+          margin: 0 auto; }
+        .header .leftSide ul h1 {
+          padding: 0; }
+        .header .leftSide ul p {
+          display: none; }
+    .header .rightSide {
+      display: none; }
+
+  .footer {
+    display: none; }
+
+  .content {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    padding: 0 15px; }
+    .content .firstDiv {
+      position: relative;
+      float: left;
+      display: block;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .content .firstDiv ul {
+        margin: 0 auto;
+        padding: 0; }
+        .content .firstDiv ul li {
+          font-size: 20px;
+          list-style: none; }
+          .content .firstDiv ul li h1 {
+            color: #FF870D;
+            font-family: myFirstFont; }
+          .content .firstDiv ul li p {
+            font-family: myFirstFont;
+            color: gray;
+            font-size: 19px;
+            margin: 0; }
+          .content .firstDiv ul li h4 {
+            font-family: myFirstFont;
+            font-weight: 100; }
+    .content .secondDiv {
+      width: 36%;
+      padding-right: 3%;
+      padding-top: 40px;
+      float: left;
+      display: block;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .content .secondDiv .contWhatIsAtlis {
+        padding: 0; }
+        .content .secondDiv .contWhatIsAtlis p {
+          color: gray;
+          font-family: myFirstFont;
+          font-size: 19px; }
+        .content .secondDiv .contWhatIsAtlis h4 {
+          font-family: myFirstFont; }
+      .content .secondDiv .contAtlisMission {
+        padding: 0; }
+        .content .secondDiv .contAtlisMission p {
+          color: gray;
+          font-family: myFirstFont;
+          font-size: 19px; }
+        .content .secondDiv .contAtlisMission h4 {
+          font-family: myFirstFont; }
+    .content .thirdDiv {
+      width: 32%;
+      padding-right: 0;
+      padding-top: 50px;
+      float: left;
+      display: block;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .content .thirdDiv .contHowDoesItWork {
+        padding: 0; }
+        .content .thirdDiv .contHowDoesItWork p {
+          color: gray;
+          font-family: myFirstFont;
+          font-size: 19px; }
+        .content .thirdDiv .contHowDoesItWork h4 {
+          font-family: myFirstFont; } }
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+.footer i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.header .leftSide ul li p a:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.hoverDrop a:hover {
+  color: #FF870D !important;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.navOverlayFIT i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+@media screen and (max-width: 735px) {
+  .content .firstDiv {
+    display: block;
+    width: 100%; }
+    .content .firstDiv ul {
+      margin: 0 auto;
+      padding: 0; }
+      .content .firstDiv ul li {
+        font-size: 20px;
+        list-style: none; }
+        .content .firstDiv ul li h1 {
+          color: #FF870D;
+          font-family: myFirstFont; }
+        .content .firstDiv ul li p {
+          font-family: myFirstFont;
+          color: gray;
+          font-size: 19px;
+          margin: 0; }
+        .content .firstDiv ul li h4 {
+          font-family: myFirstFont;
+          font-weight: 100; }
+  .content .secondDiv {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid lightgray; }
+    .content .secondDiv .contWhatIsAtlis {
+      padding: 0; }
+      .content .secondDiv .contWhatIsAtlis p {
+        color: gray;
+        font-family: myFirstFont;
+        font-size: 19px; }
+      .content .secondDiv .contWhatIsAtlis h4 {
+        font-family: myFirstFont; }
+    .content .secondDiv .contAtlisMission {
+      padding: 0; }
+      .content .secondDiv .contAtlisMission p {
+        color: gray;
+        font-family: myFirstFont;
+        font-size: 19px; }
+      .content .secondDiv .contAtlisMission h4 {
+        font-family: myFirstFont; }
+  .content .thirdDiv {
+    width: 100%;
+    display: block; }
+    .content .thirdDiv .contHowDoesItWork {
+      padding: 0; }
+      .content .thirdDiv .contHowDoesItWork p {
+        color: gray;
+        font-family: myFirstFont;
+        font-size: 19px; }
+      .content .thirdDiv .contHowDoesItWork h4 {
+        font-family: myFirstFont; } }
+#navigation {
+  display: none; }
+
+.content {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 50px 60px;
+  margin: 0 auto;
+  max-width: 1024px;
+  display: block;
+  overflow: hidden; }
+@font-face {
+  .content {
+    font-family: myFirstFont;
+    src: url("/Proxima Nova Bold.otf"); } }
+  .content .firstDiv {
+    width: 32%;
+    float: left;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .content .firstDiv ul {
+      margin: 0 auto;
+      padding: 0; }
+      .content .firstDiv ul li {
+        font-size: 20px;
+        list-style: none; }
+        .content .firstDiv ul li h1 {
+          color: #FF870D;
+          font-family: myFirstFont; }
+        .content .firstDiv ul li p {
+          font-family: myFirstFont;
+          color: gray;
+          font-size: 19px;
+          margin: 0; }
+        .content .firstDiv ul li h4 {
+          font-family: myFirstFont;
+          font-weight: 100; }
+  .content .secondDiv {
+    width: 36%;
+    padding-right: 3%;
+    float: left;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .content .secondDiv .contWhatIsAtlis {
+      padding: 0; }
+      .content .secondDiv .contWhatIsAtlis p {
+        color: gray;
+        font-family: myFirstFont;
+        font-size: 19px; }
+      .content .secondDiv .contWhatIsAtlis h4 {
+        font-family: myFirstFont; }
+    .content .secondDiv .contAtlisMission {
+      padding: 0; }
+      .content .secondDiv .contAtlisMission p {
+        color: gray;
+        font-family: myFirstFont;
+        font-size: 19px; }
+      .content .secondDiv .contAtlisMission h4 {
+        font-family: myFirstFont; }
+  .content .thirdDiv {
+    width: 32%;
+    padding-right: 0;
+    float: left;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .content .thirdDiv .contHowDoesItWork {
+      padding: 0; }
+      .content .thirdDiv .contHowDoesItWork p {
+        color: gray;
+        font-family: myFirstFont;
+        font-size: 19px; }
+      .content .thirdDiv .contHowDoesItWork h4 {
+        font-family: myFirstFont; }
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+.footer i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.header .leftSide ul li p a:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.hoverDrop a:hover {
+  color: #FF870D !important;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.navOverlayFIT i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+@media screen and (max-width: 760px) {
+  #navigation {
+    z-index: 1;
+    display: none; }
+
+  .wrapper {
+    z-index: -1; }
+
+  .header {
+    padding: 0;
+    position: relative;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto; }
+    .header .barsDropDown {
+      display: inline-block;
+      position: fixed;
+      left: 5%; }
+      .header .barsDropDown a {
+        color: #FF870D; }
+    .header .leftSide {
+      padding: 0;
+      position: relative;
+      display: block;
+      width: 150px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-left: auto;
+      margin-right: auto; }
+      .header .leftSide ul {
+        position: relative;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto; }
+        .header .leftSide ul li {
+          list-style: none;
+          display: inline-block;
+          margin: 0 auto; }
+        .header .leftSide ul h1 {
+          padding: 0; }
+        .header .leftSide ul p {
+          display: none; }
+    .header .rightSide {
+      display: none; }
+
+  .footer {
+    display: none; }
+
+  .content {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    padding: 0 15px; }
+    .content .firstDiv {
+      position: relative;
+      float: left;
+      display: block;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .content .firstDiv ul {
+        margin: 0 auto;
+        padding: 0; }
+        .content .firstDiv ul li {
+          font-size: 20px;
+          list-style: none; }
+          .content .firstDiv ul li h1 {
+            color: #FF870D;
+            font-family: myFirstFont; }
+          .content .firstDiv ul li p {
+            font-family: myFirstFont;
+            color: gray;
+            font-size: 19px;
+            margin: 0; }
+          .content .firstDiv ul li h4 {
+            font-family: myFirstFont;
+            font-weight: 100; }
+    .content .secondDiv {
+      width: 36%;
+      padding-right: 3%;
+      padding-top: 40px;
+      float: left;
+      display: block;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .content .secondDiv .contWhatIsAtlis {
+        padding: 0; }
+        .content .secondDiv .contWhatIsAtlis p {
+          color: gray;
+          font-family: myFirstFont;
+          font-size: 19px; }
+        .content .secondDiv .contWhatIsAtlis h4 {
+          font-family: myFirstFont; }
+      .content .secondDiv .contAtlisMission {
+        padding: 0; }
+        .content .secondDiv .contAtlisMission p {
+          color: gray;
+          font-family: myFirstFont;
+          font-size: 19px; }
+        .content .secondDiv .contAtlisMission h4 {
+          font-family: myFirstFont; }
+    .content .thirdDiv {
+      width: 32%;
+      padding-right: 0;
+      padding-top: 50px;
+      float: left;
+      display: block;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .content .thirdDiv .contHowDoesItWork {
+        padding: 0; }
+        .content .thirdDiv .contHowDoesItWork p {
+          color: gray;
+          font-family: myFirstFont;
+          font-size: 19px; }
+        .content .thirdDiv .contHowDoesItWork h4 {
+          font-family: myFirstFont; } }
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf"); }
+.footer i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.header .leftSide ul li p a:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.hoverDrop a:hover {
+  color: #FF870D !important;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.navOverlayFIT i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+
+@media screen and (max-width: 735px) {
+  .content .firstDiv {
+    display: block;
+    width: 100%; }
+    .content .firstDiv ul {
+      margin: 0 auto;
+      padding: 0; }
+      .content .firstDiv ul li {
+        font-size: 20px;
+        list-style: none; }
+        .content .firstDiv ul li h1 {
+          color: #FF870D;
+          font-family: myFirstFont; }
+        .content .firstDiv ul li p {
+          font-family: myFirstFont;
+          color: gray;
+          font-size: 19px;
+          margin: 0; }
+        .content .firstDiv ul li h4 {
+          font-family: myFirstFont;
+          font-weight: 100; }
+  .content .secondDiv {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid lightgray; }
+    .content .secondDiv .contWhatIsAtlis {
+      padding: 0; }
+      .content .secondDiv .contWhatIsAtlis p {
+        color: gray;
+        font-family: myFirstFont;
+        font-size: 19px; }
+      .content .secondDiv .contWhatIsAtlis h4 {
+        font-family: myFirstFont; }
+    .content .secondDiv .contAtlisMission {
+      padding: 0; }
+      .content .secondDiv .contAtlisMission p {
+        color: gray;
+        font-family: myFirstFont;
+        font-size: 19px; }
+      .content .secondDiv .contAtlisMission h4 {
+        font-family: myFirstFont; }
+  .content .thirdDiv {
+    width: 100%;
+    display: block; }
+    .content .thirdDiv .contHowDoesItWork {
+      padding: 0; }
+      .content .thirdDiv .contHowDoesItWork p {
+        color: gray;
+        font-family: myFirstFont;
+        font-size: 19px; }
+      .content .thirdDiv .contHowDoesItWork h4 {
+        font-family: myFirstFont; } }
+
+/*# sourceMappingURL=Style.css.map */

@@ -1,0 +1,34 @@
+@import "./Vrednosti";
+@import "./Hover";
+
+
+
+.footer{
+
+  position: fixed;
+  top: 900px;
+  .faceInstaTwitter{
+
+    display: block;
+
+    ul {
+
+      display: inline-block;
+      margin-left: 20px;
+
+      li {
+        list-style: none;
+        display: inline-block;
+
+      }
+    }
+
+    a{
+      padding-right: 40px;
+      text-decoration: none;
+      color: black;
+
+    }
+  }
+
+}

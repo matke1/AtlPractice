@@ -1,0 +1,144 @@
+@import "./Header";
+@import "./Vrednosti";
+@import "./Footer";
+@import "./Hover";
+@import "./StyleRespHeader";
+@import "./StyleRespHeaderSmall";
+@import "./OverlayMenu";
+@import "./StyleRespDropDown";
+@import "./StyleRespDropDownSmall";
+
+
+
+
+
+#navigation{
+  display: none;
+}
+
+
+
+.content{
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url("/Proxima Nova Bold.otf");
+  }
+
+
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:50px 60px;
+  margin:0 auto;
+  max-width:1024px;
+  display: block;
+  overflow: hidden;
+
+  .firstDiv{
+    width:32%;
+    float: left;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    ul{
+      margin: 0 auto;
+      padding:0;
+
+      li{
+        font-size: $FontSize;
+        list-style: none;
+
+        h1{
+          color: $PrimaryColor;
+          font-family: $FontFamily;
+        }
+
+        p{
+          font-family: $FontFamily;
+          color: $SecondaryColor;
+          font-size: $FontSizeSec;
+          margin:0;
+        }
+
+        h4{
+          font-family: $FontFamily;
+          font-weight:100;
+        }
+
+      }
+    }
+  }
+
+  .secondDiv{
+    width:36%;
+    padding-right:3%;
+    float: left;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    .contWhatIsAtlis{
+
+      padding:0;
+
+      p{
+        color: $SecondaryColor;
+        font-family: $FontFamily;
+        font-size:$FontSizeSec;
+      }
+      h4{
+        font-family: $FontFamily;
+      }
+
+    }
+
+
+
+    .contAtlisMission{
+
+        padding:0;
+
+        p{
+          color: $SecondaryColor;
+          font-family: $FontFamily;
+          font-size:$FontSizeSec;
+        }
+        h4{
+          font-family: $FontFamily;
+        }
+
+    }
+
+  }
+
+  .thirdDiv {
+    width:32%;
+    padding-right:0;
+    float: left;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    .contHowDoesItWork{
+
+      padding:0;
+
+      p{
+        color: $SecondaryColor;
+        font-family: $FontFamily;
+        font-size:$FontSizeSec;
+      }
+      h4{
+        font-family: $FontFamily;
+      }
+    }
+  }
+}
+
+@import "./StyleRespDropDown";
+@import "./StyleRespDropDownSmall";

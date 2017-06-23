@@ -1,0 +1,9 @@
+$PrimaryColor:#FF870D;
+$FontFamily: myFirstFont;
+$SecondaryColor:gray;
+$FontSize:20px;
+$FontSizeSec:19px;
+@font-face {
+  font-family: myFirstFont;
+  src: url("/Proxima Nova Bold.otf");
+}

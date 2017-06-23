@@ -1,0 +1,105 @@
+@import "./Vrednosti";
+@import "./Hover";
+
+
+
+@media screen and (max-width: 735px){
+
+  .content{
+
+    .firstDiv{
+      display: block;
+      width:100%;
+
+
+
+      ul{
+        margin: 0 auto;
+        padding:0;
+
+        li{
+          font-size: $FontSize;
+          list-style: none;
+
+          h1{
+            color: $PrimaryColor;
+            font-family:$FontFamily;
+          }
+
+          p{
+            font-family: $FontFamily;
+            color: $SecondaryColor;
+            font-size: $FontSizeSec;
+            margin:0;
+          }
+
+          h4{
+            font-family: $FontFamily;
+            font-weight:100;
+          }
+
+        }
+      }
+    }
+
+    .secondDiv{
+      width:100%;
+      display: block;
+      border-bottom:1px solid lightgray;
+
+
+      .contWhatIsAtlis{
+
+        padding:0;
+
+        p{
+          color: $SecondaryColor;
+          font-family: $FontFamily;
+          font-size:$FontSizeSec;
+        }
+        h4{
+          font-family: $FontFamily;
+        }
+
+      }
+
+
+
+      .contAtlisMission{
+
+        padding:0;
+
+        p{
+          color: $SecondaryColor;
+          font-family: $FontFamily;
+          font-size:$FontSizeSec;
+        }
+        h4{
+          font-family: $FontFamily;
+        }
+
+      }
+
+    }
+
+    .thirdDiv {
+      width:100%;
+      display: block;
+      
+      .contHowDoesItWork{
+
+        padding:0;
+
+        p{
+          color: $SecondaryColor;
+          font-family: $FontFamily;
+          font-size:$FontSizeSec;
+        }
+        h4{
+          font-family: $FontFamily;
+        }
+      }
+    }
+  }
+
+}

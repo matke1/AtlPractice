@@ -1,0 +1,78 @@
+.footer i:hover {
+  color: #FF870D;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s; }
+
+.header .rightSide ul li:hover {
+  background: #FF870D;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s; }
+.header .leftSide a:hover {
+  text-decoration: none;
+  color: #FF870D;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s; }
+
+.header {
+  border: 1px solid white;
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  position: relative; }
+  .header .leftSide {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px; }
+    .header .leftSide ul {
+      display: inline-block;
+      margin: 0 auto; }
+      .header .leftSide ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 auto; }
+      .header .leftSide ul h1 {
+        padding-right: 30px; }
+        .header .leftSide ul h1 a {
+          color: #FF870D;
+          text-decoration: none; }
+      .header .leftSide ul p {
+        padding-right: 20px;
+        margin: 0; }
+        .header .leftSide ul p .activeLink {
+          color: #FF870D;
+          text-decoration: none;
+          padding-bottom: 2px;
+          border-bottom: 2px solid #FF870D; }
+        .header .leftSide ul p a {
+          text-decoration: none;
+          color: black; }
+  .header .rightSide {
+    display: inline-block;
+    position: relative;
+    float: right; }
+    .header .rightSide ul {
+      display: inline-block;
+      margin: 0 auto;
+      padding: 0; }
+      .header .rightSide ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 auto;
+        padding-right: 40px;
+        padding-left: 40px;
+        background: lightgray; }
+        .header .rightSide ul li a {
+          color: black;
+          text-decoration: none; }
+
+@media screen and (max-width: 1100px) {
+  .content {
+    background: n; } }
+
+/*# sourceMappingURL=StyleRespHeader.css.map */

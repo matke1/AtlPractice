@@ -1,0 +1,42 @@
+@import "./Vrednosti";
+
+
+@media screen and (max-width: 900px){
+
+  .header{
+
+    .rightSide{
+      display: inline-block;
+      position: relative;
+      float: right;
+
+      ul{
+        display: inline-block;
+        margin:0 auto;
+        padding:0;
+
+        li{
+          list-style: none;
+          display: inline-block;
+          margin:0 auto;
+          padding-top:25px;
+
+
+          a {
+            color: black;
+            text-decoration: none;
+
+            img{
+              width: 100px;
+              height: 30px;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+
+}

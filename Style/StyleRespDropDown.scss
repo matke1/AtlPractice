@@ -1,0 +1,203 @@
+@import "./Vrednosti";
+@import "./Hover";
+
+@media screen and (max-width: 760px) {
+
+
+
+  #navigation{
+
+    z-index: 1;
+    display: none;
+    
+  }
+
+  .wrapper{
+
+    z-index: -1;
+
+  }
+
+
+  .header {
+    padding: 0;
+    position: relative;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+
+    .barsDropDown {
+      display: inline-block;
+      position: fixed;
+      left: 5%;
+
+      a {
+        color: $PrimaryColor;
+      }
+    }
+
+    .leftSide {
+      padding: 0;
+      position: relative;
+      display: block;
+      width: 150px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-left: auto;
+      margin-right: auto;
+
+      ul {
+        position: relative;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+
+        li {
+          list-style: none;
+          display: inline-block;
+          margin: 0 auto;
+        }
+
+        h1 {
+          padding: 0;
+
+        }
+        p {
+          display: none;
+        }
+      }
+
+    }
+
+    .rightSide {
+      display: none;
+
+    }
+
+  }
+
+  .footer {
+    display: none;
+
+  }
+
+  .content {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    padding:0 15px;
+
+
+    .firstDiv {
+      position: relative;
+      float: left;
+      display: block;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+
+      ul {
+        margin: 0 auto;
+        padding: 0;
+
+        li {
+          font-size: $FontSize;
+          list-style: none;
+
+          h1 {
+            color: $PrimaryColor;
+            font-family: $FontFamily;
+          }
+
+          p {
+            font-family: $FontFamily;
+            color: $SecondaryColor;
+            font-size: $FontSizeSec;
+            margin: 0;
+          }
+
+          h4 {
+            font-family: $FontFamily;
+            font-weight: 100;
+          }
+
+        }
+      }
+    }
+
+    .secondDiv {
+      width: 36%;
+      padding-right: 3%;
+      padding-top: 40px;
+      float: left;
+      display: block;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+
+      .contWhatIsAtlis {
+
+        padding: 0;
+
+        p {
+          color: $SecondaryColor;
+          font-family: $FontFamily;
+          font-size: $FontSizeSec;
+        }
+        h4 {
+          font-family: $FontFamily;
+        }
+
+      }
+
+      .contAtlisMission {
+
+        padding: 0;
+
+        p {
+          color: $SecondaryColor;
+          font-family: $FontFamily;
+          font-size: $FontSizeSec;
+        }
+        h4 {
+          font-family: $FontFamily;
+        }
+
+      }
+
+    }
+
+    .thirdDiv {
+      width: 32%;
+      padding-right: 0;
+      padding-top: 50px;
+      float: left;
+      display: block;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      .contHowDoesItWork {
+
+        padding: 0;
+
+        p {
+          color: $SecondaryColor;
+          font-family: $FontFamily;
+          font-size: $FontSizeSec;
+        }
+        h4 {
+          font-family: $FontFamily;
+        }
+      }
+    }
+  }
+}
