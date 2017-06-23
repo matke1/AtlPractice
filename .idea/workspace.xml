@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2296b058-a80f-4a62-a4fe-e6c249fb571e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index.html" afterPath="$PROJECT_DIR$/Index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JQuery.js" afterPath="$PROJECT_DIR$/JQuery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/OverlayMenu.scss" afterPath="$PROJECT_DIR$/Style/OverlayMenu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/Style.css" afterPath="$PROJECT_DIR$/Style/Style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/Style.css.map" afterPath="$PROJECT_DIR$/Style/Style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/Style.scss" afterPath="$PROJECT_DIR$/Style/Style.scss" />
-    </list>
+    <list default="true" id="2296b058-a80f-4a62-a4fe-e6c249fb571e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -317,12 +309,12 @@
       <workItem from="1498056189190" duration="205000" />
       <workItem from="1498114121375" duration="11708000" />
       <workItem from="1498125872193" duration="14262000" />
-      <workItem from="1498200930560" duration="11290000" />
+      <workItem from="1498200930560" duration="11527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50232000" />
+    <option name="totallyTimeSpent" value="50469000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
