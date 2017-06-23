@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    $(".openMenu").click(function(){
+        $(".navOver").slideDown(100);
+        $(".wrapper").slideUp(50);
+        $('.close').slideDown(100);
+        $('.dropDownLogo').slideDown(100);
+        $('.navOverlayFIT').slideDown(100);
+    });
+});
+$(document).ready(function(){
+    $(".close").click(function(){
+        $('.close').slideUp(100);
+        $('.dropDownLogo').slideUp(100);
+        $(".navOver").slideUp(100);
+        $(".wrapper").slideDown(50);
+        $('.navOverlayFIT').slideUp(100);
+    });
+});

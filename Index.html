@@ -13,6 +13,8 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
+    <script type="text/javascript" src="JQuery.js"></script>
+
 
 </head>
 <body>
@@ -259,25 +261,3 @@
 
 </body>
 </html>
-
-<script>
-    $(document).ready(function(){
-        $(".openMenu").click(function(){
-            $(".navOver").slideDown(100);
-            $(".wrapper").slideUp(50);
-            $('.close').slideDown(100);
-            $('.dropDownLogo').slideDown(100);
-            $('.navOverlayFIT').slideDown(100);
-        });
-    });
-    $(document).ready(function(){
-        $(".close").click(function(){
-            $('.close').slideUp(100);
-            $('.dropDownLogo').slideUp(100);
-            $(".navOver").slideUp(100);
-            $(".wrapper").slideDown(50);
-            $('.navOverlayFIT').slideUp(100);
-        });
-    });
-
-</script>
