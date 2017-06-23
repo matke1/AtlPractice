@@ -1,0 +1,10 @@
+$PrimaryColor:#E85C48;
+$FontFamily: myFirstFont;
+$SecondaryColor:gray;
+$FontSize:23px;
+$FontSizeSec:17px;
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("../proximanova-regular-webfont.ttf");
+}

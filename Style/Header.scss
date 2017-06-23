@@ -1,4 +1,4 @@
-@import "./Vrednosti";
+@import "./Val";
 @import "./Hover";
 
 .wrapper {
@@ -34,6 +34,7 @@
 
       h1{
         padding-right:50px;
+        font-family: $FontFamily;
         a{
           color: $PrimaryColor;
           text-decoration: none;
@@ -42,6 +43,8 @@
       p{
         padding-right:20px;
         margin:0;
+        font-size:13px;
+        font-family: $FontFamily;
 
         .activeLink{
           color: $PrimaryColor;

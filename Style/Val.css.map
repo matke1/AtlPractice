@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,UAGC;EAFC,WAAW,EAAE,WAAW;EACxB,GAAG,EAAE,6BAA6B",
+"sources": ["Val.scss"],
+"names": [],
+"file": "Val.css"
+}

@@ -1,32 +1,32 @@
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 .footer i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .header .leftSide ul li p a:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .hoverDrop a:hover {
-  color: #FF870D !important;
+  color: #E85C48 !important;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .navOverlayFIT i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
@@ -52,18 +52,21 @@
         display: inline-block;
         margin: 0 auto; }
       .header .leftSide ul h1 {
-        padding-right: 50px; }
+        padding-right: 50px;
+        font-family: myFirstFont; }
         .header .leftSide ul h1 a {
-          color: #FF870D;
+          color: #E85C48;
           text-decoration: none; }
       .header .leftSide ul p {
         padding-right: 20px;
-        margin: 0; }
+        margin: 0;
+        font-size: 13px;
+        font-family: myFirstFont; }
         .header .leftSide ul p .activeLink {
-          color: #FF870D;
+          color: #E85C48;
           text-decoration: none;
           padding-bottom: 2px;
-          border-bottom: 2px solid #FF870D; }
+          border-bottom: 2px solid #E85C48; }
         .header .leftSide ul p a {
           text-decoration: none;
           color: black; }
@@ -90,36 +93,36 @@
 
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 .footer i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .header .leftSide ul li p a:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .hoverDrop a:hover {
-  color: #FF870D !important;
+  color: #E85C48 !important;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .navOverlayFIT i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
@@ -143,30 +146,30 @@
 
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 .footer i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .header .leftSide ul li p a:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .hoverDrop a:hover {
-  color: #FF870D !important;
+  color: #E85C48 !important;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .navOverlayFIT i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
@@ -174,7 +177,7 @@
 
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 @media screen and (max-width: 1020px) {
   .header {
     display: block;
@@ -195,22 +198,22 @@
         .header .leftSide ul h1 {
           padding-right: 20px; }
           .header .leftSide ul h1 a {
-            color: #FF870D;
+            color: #E85C48;
             text-decoration: none; }
         .header .leftSide ul p {
           padding-right: 10px;
           margin: 0; }
           .header .leftSide ul p .activeLink {
-            color: #FF870D;
+            color: #E85C48;
             text-decoration: none;
             padding-bottom: 2px;
-            border-bottom: 2px solid #FF870D; }
+            border-bottom: 2px solid #E85C48; }
           .header .leftSide ul p a {
             text-decoration: none;
             color: black; } }
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 @media screen and (max-width: 900px) {
   .header .rightSide {
     display: inline-block;
@@ -234,33 +237,33 @@
             object-fit: cover; } }
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 .footer i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .header .leftSide ul li p a:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .hoverDrop a:hover {
-  color: #FF870D !important;
+  color: #E85C48 !important;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .navOverlayFIT i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
@@ -281,7 +284,7 @@
       color: #000;
       text-decoration: none; }
     .navOver .contentOverlay .topContentMenu li .linkDrop {
-      color: #FF870D; }
+      color: #E85C48; }
 .navOver .contentOverlay .navOverlayFIT {
   display: inline-block;
   margin-left: auto;
@@ -317,7 +320,7 @@
     .navOver .contentOverlay .btnExitLogo .closeDiv .close {
       display: inline-block;
       text-decoration: none;
-      color: #FF870D; }
+      color: #E85C48; }
   .navOver .contentOverlay .btnExitLogo .divdropDownLogo {
     display: block;
     margin-left: auto;
@@ -329,7 +332,7 @@
     right: 0;
     bottom: 0; }
     .navOver .contentOverlay .btnExitLogo .divdropDownLogo .dropDownLogo {
-      color: #FF870D;
+      color: #E85C48;
       text-decoration: none;
       width: 100%;
       margin-left: auto;
@@ -339,33 +342,33 @@
 
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 .footer i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .header .leftSide ul li p a:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .hoverDrop a:hover {
-  color: #FF870D !important;
+  color: #E85C48 !important;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .navOverlayFIT i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
@@ -394,7 +397,7 @@
       position: absolute;
       left: 5%; }
       .header .barsDropDown a {
-        color: #FF870D; }
+        color: #E85C48; }
     .header .leftSide {
       padding: 0;
       position: relative;
@@ -444,15 +447,15 @@
         margin: 0 auto;
         padding: 0; }
         .content .firstDiv ul li {
-          font-size: 20px;
+          font-size: 23px;
           list-style: none; }
           .content .firstDiv ul li h1 {
-            color: #FF870D;
+            color: #E85C48;
             font-family: myFirstFont; }
           .content .firstDiv ul li p {
             font-family: myFirstFont;
             color: gray;
-            font-size: 19px;
+            font-size: 17px;
             margin: 0; }
           .content .firstDiv ul li h4 {
             font-family: myFirstFont;
@@ -471,7 +474,7 @@
         .content .secondDiv .contWhatIsAtlis p {
           color: gray;
           font-family: myFirstFont;
-          font-size: 19px; }
+          font-size: 17px; }
         .content .secondDiv .contWhatIsAtlis h4 {
           font-family: myFirstFont; }
       .content .secondDiv .contAtlisMission {
@@ -479,7 +482,7 @@
         .content .secondDiv .contAtlisMission p {
           color: gray;
           font-family: myFirstFont;
-          font-size: 19px; }
+          font-size: 17px; }
         .content .secondDiv .contAtlisMission h4 {
           font-family: myFirstFont; }
     .content .thirdDiv {
@@ -496,38 +499,38 @@
         .content .thirdDiv .contHowDoesItWork p {
           color: gray;
           font-family: myFirstFont;
-          font-size: 19px; }
+          font-size: 17px; }
         .content .thirdDiv .contHowDoesItWork h4 {
           font-family: myFirstFont; } }
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 .footer i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .header .leftSide ul li p a:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .hoverDrop a:hover {
-  color: #FF870D !important;
+  color: #E85C48 !important;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .navOverlayFIT i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
@@ -541,15 +544,15 @@
       margin: 0 auto;
       padding: 0; }
       .content .firstDiv ul li {
-        font-size: 20px;
+        font-size: 23px;
         list-style: none; }
         .content .firstDiv ul li h1 {
-          color: #FF870D;
+          color: #E85C48;
           font-family: myFirstFont; }
         .content .firstDiv ul li p {
           font-family: myFirstFont;
           color: gray;
-          font-size: 19px;
+          font-size: 17px;
           margin: 0; }
         .content .firstDiv ul li h4 {
           font-family: myFirstFont;
@@ -563,7 +566,7 @@
       .content .secondDiv .contWhatIsAtlis p {
         color: gray;
         font-family: myFirstFont;
-        font-size: 19px; }
+        font-size: 17px; }
       .content .secondDiv .contWhatIsAtlis h4 {
         font-family: myFirstFont; }
     .content .secondDiv .contAtlisMission {
@@ -571,7 +574,7 @@
       .content .secondDiv .contAtlisMission p {
         color: gray;
         font-family: myFirstFont;
-        font-size: 19px; }
+        font-size: 17px; }
       .content .secondDiv .contAtlisMission h4 {
         font-family: myFirstFont; }
   .content .thirdDiv {
@@ -582,7 +585,7 @@
       .content .thirdDiv .contHowDoesItWork p {
         color: gray;
         font-family: myFirstFont;
-        font-size: 19px; }
+        font-size: 17px; }
       .content .thirdDiv .contHowDoesItWork h4 {
         font-family: myFirstFont; } }
 #navigation {
@@ -598,10 +601,6 @@
   max-width: 1024px;
   display: block;
   overflow: hidden; }
-@font-face {
-  .content {
-    font-family: myFirstFont;
-    src: url("/Proxima Nova Bold.otf"); } }
   .content .firstDiv {
     width: 32%;
     float: left;
@@ -613,15 +612,16 @@
       margin: 0 auto;
       padding: 0; }
       .content .firstDiv ul li {
-        font-size: 20px;
+        font-size: 23px;
         list-style: none; }
         .content .firstDiv ul li h1 {
-          color: #FF870D;
-          font-family: myFirstFont; }
+          color: #E85C48;
+          font-family: myFirstFont;
+          font-weight: bold; }
         .content .firstDiv ul li p {
           font-family: myFirstFont;
           color: gray;
-          font-size: 19px;
+          font-size: 17px;
           margin: 0; }
         .content .firstDiv ul li h4 {
           font-family: myFirstFont;
@@ -629,6 +629,7 @@
   .content .secondDiv {
     width: 36%;
     padding-right: 3%;
+    padding-top: 40px;
     float: left;
     display: block;
     -webkit-box-sizing: border-box;
@@ -639,7 +640,7 @@
       .content .secondDiv .contWhatIsAtlis p {
         color: gray;
         font-family: myFirstFont;
-        font-size: 19px; }
+        font-size: 17px; }
       .content .secondDiv .contWhatIsAtlis h4 {
         font-family: myFirstFont; }
     .content .secondDiv .contAtlisMission {
@@ -647,12 +648,13 @@
       .content .secondDiv .contAtlisMission p {
         color: gray;
         font-family: myFirstFont;
-        font-size: 19px; }
+        font-size: 17px; }
       .content .secondDiv .contAtlisMission h4 {
         font-family: myFirstFont; }
   .content .thirdDiv {
     width: 32%;
     padding-right: 0;
+    padding-top: 45px;
     float: left;
     display: block;
     -webkit-box-sizing: border-box;
@@ -663,39 +665,39 @@
       .content .thirdDiv .contHowDoesItWork p {
         color: gray;
         font-family: myFirstFont;
-        font-size: 19px; }
+        font-size: 17px; }
       .content .thirdDiv .contHowDoesItWork h4 {
         font-family: myFirstFont; }
 
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 .footer i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .header .leftSide ul li p a:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .hoverDrop a:hover {
-  color: #FF870D !important;
+  color: #E85C48 !important;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .navOverlayFIT i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
@@ -724,7 +726,7 @@
       position: absolute;
       left: 5%; }
       .header .barsDropDown a {
-        color: #FF870D; }
+        color: #E85C48; }
     .header .leftSide {
       padding: 0;
       position: relative;
@@ -774,15 +776,15 @@
         margin: 0 auto;
         padding: 0; }
         .content .firstDiv ul li {
-          font-size: 20px;
+          font-size: 23px;
           list-style: none; }
           .content .firstDiv ul li h1 {
-            color: #FF870D;
+            color: #E85C48;
             font-family: myFirstFont; }
           .content .firstDiv ul li p {
             font-family: myFirstFont;
             color: gray;
-            font-size: 19px;
+            font-size: 17px;
             margin: 0; }
           .content .firstDiv ul li h4 {
             font-family: myFirstFont;
@@ -801,7 +803,7 @@
         .content .secondDiv .contWhatIsAtlis p {
           color: gray;
           font-family: myFirstFont;
-          font-size: 19px; }
+          font-size: 17px; }
         .content .secondDiv .contWhatIsAtlis h4 {
           font-family: myFirstFont; }
       .content .secondDiv .contAtlisMission {
@@ -809,7 +811,7 @@
         .content .secondDiv .contAtlisMission p {
           color: gray;
           font-family: myFirstFont;
-          font-size: 19px; }
+          font-size: 17px; }
         .content .secondDiv .contAtlisMission h4 {
           font-family: myFirstFont; }
     .content .thirdDiv {
@@ -826,38 +828,38 @@
         .content .thirdDiv .contHowDoesItWork p {
           color: gray;
           font-family: myFirstFont;
-          font-size: 19px; }
+          font-size: 17px; }
         .content .thirdDiv .contHowDoesItWork h4 {
           font-family: myFirstFont; } }
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 @font-face {
   font-family: myFirstFont;
-  src: url("/Proxima Nova Bold.otf"); }
+  src: url("../proximanova-regular-webfont.ttf"); }
 .footer i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .header .leftSide ul li p a:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .hoverDrop a:hover {
-  color: #FF870D !important;
+  color: #E85C48 !important;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
 .navOverlayFIT i:hover {
-  color: #FF870D;
+  color: #E85C48;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
@@ -871,15 +873,15 @@
       margin: 0 auto;
       padding: 0; }
       .content .firstDiv ul li {
-        font-size: 20px;
+        font-size: 23px;
         list-style: none; }
         .content .firstDiv ul li h1 {
-          color: #FF870D;
+          color: #E85C48;
           font-family: myFirstFont; }
         .content .firstDiv ul li p {
           font-family: myFirstFont;
           color: gray;
-          font-size: 19px;
+          font-size: 17px;
           margin: 0; }
         .content .firstDiv ul li h4 {
           font-family: myFirstFont;
@@ -893,7 +895,7 @@
       .content .secondDiv .contWhatIsAtlis p {
         color: gray;
         font-family: myFirstFont;
-        font-size: 19px; }
+        font-size: 17px; }
       .content .secondDiv .contWhatIsAtlis h4 {
         font-family: myFirstFont; }
     .content .secondDiv .contAtlisMission {
@@ -901,7 +903,7 @@
       .content .secondDiv .contAtlisMission p {
         color: gray;
         font-family: myFirstFont;
-        font-size: 19px; }
+        font-size: 17px; }
       .content .secondDiv .contAtlisMission h4 {
         font-family: myFirstFont; }
   .content .thirdDiv {
@@ -912,7 +914,7 @@
       .content .thirdDiv .contHowDoesItWork p {
         color: gray;
         font-family: myFirstFont;
-        font-size: 19px; }
+        font-size: 17px; }
       .content .thirdDiv .contHowDoesItWork h4 {
         font-family: myFirstFont; } }
 

@@ -1,5 +1,5 @@
 @import "./Header";
-@import "./Vrednosti";
+@import "./Val";
 @import "./Footer";
 @import "./Hover";
 @import "./StyleRespHeader";
@@ -19,12 +19,6 @@
 
 
 .content{
-
-  @font-face {
-    font-family: myFirstFont;
-    src: url("/Proxima Nova Bold.otf");
-  }
-
 
   width:100%;
   -webkit-box-sizing: border-box;
@@ -55,6 +49,7 @@
         h1{
           color: $PrimaryColor;
           font-family: $FontFamily;
+          font-weight:bold;
         }
 
         p{
@@ -76,6 +71,7 @@
   .secondDiv{
     width:36%;
     padding-right:3%;
+    padding-top: 40px;
     float: left;
     display: block;
     -webkit-box-sizing: border-box;
@@ -119,6 +115,7 @@
   .thirdDiv {
     width:32%;
     padding-right:0;
+    padding-top: 45px;
     float: left;
     display: block;
     -webkit-box-sizing: border-box;
