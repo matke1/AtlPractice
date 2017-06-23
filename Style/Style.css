@@ -269,76 +269,83 @@
   -o-transition: color 0.3s;
   transition: color 0.3s; }
 
-.navOver .contentOverlay .topContentMenu {
-  max-width: 150px;
-  font-size: 25px;
+.navOver {
+  position: fixed;
+  height: 100%;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative; }
-  .navOver .contentOverlay .topContentMenu li {
-    list-style: none;
-    text-align: center;
-    padding-bottom: 30px; }
-    .navOver .contentOverlay .topContentMenu li a {
-      color: #000;
-      text-decoration: none; }
-    .navOver .contentOverlay .topContentMenu li .linkDrop {
-      color: #E85C48; }
-.navOver .contentOverlay .navOverlayFIT {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 350px;
-  border-top: 1px solid lightgray;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 15%; }
-  .navOver .contentOverlay .navOverlayFIT ul {
-    display: inline-block;
-    margin-left: 40px; }
-    .navOver .contentOverlay .navOverlayFIT ul li {
-      list-style: none;
-      display: inline-block; }
-  .navOver .contentOverlay .navOverlayFIT a {
-    padding-right: 50px;
-    text-decoration: none;
-    color: black; }
-.navOver .contentOverlay .btnExitLogo {
-  display: block; }
-  .navOver .contentOverlay .btnExitLogo .closeDiv {
-    margin-left: 0;
-    margin-right: 0;
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    float: left; }
-    .navOver .contentOverlay .btnExitLogo .closeDiv .close {
-      display: inline-block;
-      text-decoration: none;
-      color: #E85C48; }
-  .navOver .contentOverlay .btnExitLogo .divdropDownLogo {
-    display: block;
+  overflow: hidden;
+  z-index: 3;
+  background: white; }
+  .navOver .contentOverlay .topContentMenu {
+    max-width: 150px;
+    font-size: 25px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100px;
+    position: relative; }
+    .navOver .contentOverlay .topContentMenu li {
+      list-style: none;
+      text-align: center;
+      padding-bottom: 30px; }
+      .navOver .contentOverlay .topContentMenu li a {
+        color: #000;
+        text-decoration: none; }
+      .navOver .contentOverlay .topContentMenu li .linkDrop {
+        color: #E85C48; }
+  .navOver .contentOverlay .navOverlayFIT {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+    border-top: 1px solid lightgray;
     width: 100%;
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0; }
-    .navOver .contentOverlay .btnExitLogo .divdropDownLogo .dropDownLogo {
-      color: #E85C48;
+    bottom: 15%; }
+    .navOver .contentOverlay .navOverlayFIT ul {
+      display: inline-block;
+      margin-left: 40px; }
+      .navOver .contentOverlay .navOverlayFIT ul li {
+        list-style: none;
+        display: inline-block; }
+    .navOver .contentOverlay .navOverlayFIT a {
+      padding-right: 50px;
       text-decoration: none;
-      width: 100%;
+      color: black; }
+  .navOver .contentOverlay .btnExitLogo {
+    display: block; }
+    .navOver .contentOverlay .btnExitLogo .closeDiv {
+      margin-left: 0;
+      margin-right: 0;
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 2%;
+      float: left; }
+      .navOver .contentOverlay .btnExitLogo .closeDiv .close {
+        display: inline-block;
+        text-decoration: none;
+        color: #E85C48; }
+    .navOver .contentOverlay .btnExitLogo .divdropDownLogo {
+      display: block;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 0;
-      position: relative; }
+      max-width: 100px;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+      .navOver .contentOverlay .btnExitLogo .divdropDownLogo .dropDownLogo {
+        color: #E85C48;
+        text-decoration: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        position: relative; }
 
 @font-face {
   font-family: myFirstFont;
@@ -595,6 +602,9 @@
         font-family: myFirstFont; } }
 #navigation {
   display: none; }
+
+.wrapper {
+  z-index: 1; }
 
 .content {
   width: 100%;
