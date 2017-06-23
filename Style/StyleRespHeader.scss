@@ -23,12 +23,17 @@
           margin: 0 auto;
         }
 
-        h1 {
-
-          padding-right: 20px;
-          a {
+        h1{
+          a{
             color: $PrimaryColor;
             text-decoration: none;
+
+
+            img{
+              width: 100px;
+              height: 30px;
+              padding-right: 20px;
+            }
           }
         }
         p {

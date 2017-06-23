@@ -37,7 +37,6 @@
 
 .header {
   display: block;
-  padding: 0;
   margin: 0 auto;
   position: relative; }
   .header .leftSide {
@@ -51,16 +50,16 @@
         list-style: none;
         display: inline-block;
         margin: 0 auto; }
-      .header .leftSide ul h1 {
-        padding-right: 50px;
-        font-family: myFirstFont; }
-        .header .leftSide ul h1 a {
-          color: #E85C48;
-          text-decoration: none; }
+      .header .leftSide ul h1 a {
+        color: #E85C48;
+        text-decoration: none; }
+        .header .leftSide ul h1 a img {
+          width: 100px;
+          height: 30px;
+          padding-right: 60px; }
       .header .leftSide ul p {
         padding-right: 20px;
         margin: 0;
-        font-size: 13px;
         font-family: myFirstFont; }
         .header .leftSide ul p .activeLink {
           color: #E85C48;
@@ -69,7 +68,8 @@
           border-bottom: 2px solid #E85C48; }
         .header .leftSide ul p a {
           text-decoration: none;
-          color: black; }
+          color: black;
+          float: right; }
   .header .rightSide {
     display: inline-block;
     position: relative;
@@ -195,11 +195,13 @@
           list-style: none;
           display: inline-block;
           margin: 0 auto; }
-        .header .leftSide ul h1 {
-          padding-right: 20px; }
-          .header .leftSide ul h1 a {
-            color: #E85C48;
-            text-decoration: none; }
+        .header .leftSide ul h1 a {
+          color: #E85C48;
+          text-decoration: none; }
+          .header .leftSide ul h1 a img {
+            width: 100px;
+            height: 30px;
+            padding-right: 20px; }
         .header .leftSide ul p {
           padding-right: 10px;
           margin: 0; }
@@ -346,6 +348,10 @@
         margin-right: auto;
         margin-top: 0;
         position: relative; }
+        .navOver .contentOverlay .btnExitLogo .divdropDownLogo .dropDownLogo img {
+          width: 100px;
+          height: 30px;
+          padding-right: 60px; }
 
 @font-face {
   font-family: myFirstFont;

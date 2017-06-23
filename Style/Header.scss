@@ -10,11 +10,8 @@
 
 .header{
   display: block;
-  padding:0;
   margin:0 auto;
   position: relative;
-
-
 
   .leftSide{
     display: inline-block;
@@ -33,17 +30,23 @@
       }
 
       h1{
-        padding-right:50px;
-        font-family: $FontFamily;
         a{
           color: $PrimaryColor;
           text-decoration: none;
+
+
+          img{
+            width: 100px;
+            height: 30px;
+            padding-right: 60px;
         }
       }
-      p{
+    }
+
+
+    p{
         padding-right:20px;
         margin:0;
-        font-size:13px;
         font-family: $FontFamily;
 
         .activeLink{
@@ -51,11 +54,13 @@
           text-decoration: none;
           padding-bottom: 2px;
           border-bottom:2px solid $PrimaryColor;
+
         }
 
         a{
           text-decoration: none;
           color: black;
+          float: right;
 
         }
       }
