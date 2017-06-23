@@ -270,7 +270,7 @@
   transition: color 0.3s; }
 
 .navOver .contentOverlay .topContentMenu {
-  max-width: 180px;
+  max-width: 150px;
   font-size: 25px;
   width: 100%;
   margin-left: auto;
@@ -279,7 +279,7 @@
   .navOver .contentOverlay .topContentMenu li {
     list-style: none;
     text-align: center;
-    padding-bottom: 10px; }
+    padding-bottom: 30px; }
     .navOver .contentOverlay .topContentMenu li a {
       color: #000;
       text-decoration: none; }
@@ -451,7 +451,12 @@
           list-style: none; }
           .content .firstDiv ul li h1 {
             color: #E85C48;
-            font-family: myFirstFont; }
+            font-family: myFirstFont;
+            font-size: 30px; }
+            .content .firstDiv ul li h1 br {
+              display: none; }
+            .content .firstDiv ul li h1 i {
+              display: none; }
           .content .firstDiv ul li p {
             font-family: myFirstFont;
             color: gray;
@@ -780,7 +785,12 @@
           list-style: none; }
           .content .firstDiv ul li h1 {
             color: #E85C48;
-            font-family: myFirstFont; }
+            font-family: myFirstFont;
+            font-size: 30px; }
+            .content .firstDiv ul li h1 br {
+              display: none; }
+            .content .firstDiv ul li h1 i {
+              display: none; }
           .content .firstDiv ul li p {
             font-family: myFirstFont;
             color: gray;

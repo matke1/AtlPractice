@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2296b058-a80f-4a62-a4fe-e6c249fb571e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Proxima Nova Bold.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Style/Vrednosti.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Style/Vrednosti.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Style/Vrednosti.scss" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index.html" afterPath="$PROJECT_DIR$/Index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/Footer.scss" afterPath="$PROJECT_DIR$/Style/Footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/Header.scss" afterPath="$PROJECT_DIR$/Style/Header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/Hover.scss" afterPath="$PROJECT_DIR$/Style/Hover.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/OverlayMenu.scss" afterPath="$PROJECT_DIR$/Style/OverlayMenu.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/Style.css" afterPath="$PROJECT_DIR$/Style/Style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/Style.css.map" afterPath="$PROJECT_DIR$/Style/Style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/Style.scss" afterPath="$PROJECT_DIR$/Style/Style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/StyleRespDropDown.scss" afterPath="$PROJECT_DIR$/Style/StyleRespDropDown.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/StyleRespDropDownSmall.scss" afterPath="$PROJECT_DIR$/Style/StyleRespDropDownSmall.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/StyleRespHeader.scss" afterPath="$PROJECT_DIR$/Style/StyleRespHeader.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/StyleRespHeaderSmall.scss" afterPath="$PROJECT_DIR$/Style/StyleRespHeaderSmall.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,18 +25,18 @@
       <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="122" column="82" lean-forward="false" selection-start-line="122" selection-start-column="82" selection-end-line="122" selection-end-column="82" />
+            <state relative-caret-position="167">
+              <caret line="249" column="10" lean-forward="true" selection-start-line="249" selection-start-column="10" selection-end-line="249" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StyleRespDropDown.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Style/StyleRespDropDown.scss">
+      <file leaf-file-name="OverlayMenu.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Style/OverlayMenu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="103" column="37" lean-forward="true" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
+            <state relative-caret-position="612">
+              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -79,17 +68,17 @@
         <option value="$PROJECT_DIR$/font-awesome/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/Style/StyleRespHeader.css" />
         <option value="$PROJECT_DIR$/Style/Vrednosti.scss" />
-        <option value="$PROJECT_DIR$/Style/OverlayMenu.scss" />
         <option value="$PROJECT_DIR$/Style/Hover.scss" />
         <option value="$PROJECT_DIR$/Style/Footer.scss" />
-        <option value="$PROJECT_DIR$/Style/StyleRespDropDown.scss" />
         <option value="$PROJECT_DIR$/Style/StyleRespDropDownSmall.scss" />
         <option value="$PROJECT_DIR$/Style/StyleRespHeader.scss" />
         <option value="$PROJECT_DIR$/Style/StyleRespHeaderSmall.scss" />
         <option value="$PROJECT_DIR$/Style/Header.scss" />
-        <option value="$PROJECT_DIR$/Index.html" />
         <option value="$PROJECT_DIR$/Style/Val.scss" />
         <option value="$PROJECT_DIR$/Style/Style.scss" />
+        <option value="$PROJECT_DIR$/Style/StyleRespDropDown.scss" />
+        <option value="$PROJECT_DIR$/Index.html" />
+        <option value="$PROJECT_DIR$/Style/OverlayMenu.scss" />
       </list>
     </option>
   </component>
@@ -285,12 +274,12 @@
       <workItem from="1498056189190" duration="205000" />
       <workItem from="1498114121375" duration="11708000" />
       <workItem from="1498125872193" duration="14262000" />
-      <workItem from="1498200930560" duration="6133000" />
+      <workItem from="1498200930560" duration="7616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45075000" />
+    <option name="totallyTimeSpent" value="46558000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -511,14 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Style/OverlayMenu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Style/Hover.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -559,14 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="122" column="82" lean-forward="false" selection-start-line="122" selection-start-column="82" selection-end-line="122" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Style/Val.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -593,8 +566,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Style/StyleRespDropDown.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="103" column="37" lean-forward="true" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
+        <state relative-caret-position="432">
+          <caret line="118" column="24" lean-forward="false" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="249" column="10" lean-forward="true" selection-start-line="249" selection-start-column="10" selection-end-line="249" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Style/OverlayMenu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding />
         </state>
       </provider>

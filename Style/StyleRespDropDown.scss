@@ -116,6 +116,14 @@
           h1 {
             color: $PrimaryColor;
             font-family: $FontFamily;
+            font-size: 30px;
+            br{
+              display: none;
+            }
+            i{
+              display: none;
+            }
+
           }
 
           p {
