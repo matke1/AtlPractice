@@ -130,7 +130,7 @@
 
 .footer {
   position: fixed;
-  top: 900px; }
+  top: 90%; }
   .footer .faceInstaTwitter {
     display: block; }
     .footer .faceInstaTwitter ul {
