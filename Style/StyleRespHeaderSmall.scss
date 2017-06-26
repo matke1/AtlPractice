@@ -3,6 +3,14 @@
 
 @media screen and (max-width: 900px){
 
+
+  .navOver{
+
+    display: none;
+
+  }
+
+
   .header{
 
     .rightSide{
@@ -13,13 +21,13 @@
       ul{
         display: inline-block;
         margin:0 auto;
-        padding:0;
+        padding:20px;
 
         li{
           list-style: none;
           display: inline-block;
           margin:0 auto;
-          padding-top:25px;
+          //padding-top:25px;
 
 
           a {
@@ -29,7 +37,7 @@
             img{
               width: 100px;
               height: 30px;
-              object-fit: cover;
+              object-fit: fill;
             }
           }
         }

@@ -16,11 +16,11 @@
 
 .header {
 
-  .leftSide{
-    ul{
-      li{
-        p{
-          a:hover{
+  .leftSide {
+    ul {
+      li {
+        p {
+          a:hover {
             color: $PrimaryColor;
             -webkit-transition: color 0.3s;
             -moz-transition: color 0.3s;
@@ -32,6 +32,20 @@
     }
   }
 
+  .rightSide {
+
+    ul {
+      .hoverRight:hover {
+        background: $PrimaryColor;
+        -webkit-transition: background 0.3s;
+        -moz-transition: background 0.3s;
+        -o-transition: background 0.3s;
+        transition: background 0.3s;
+      }
+
+    }
+
+  }
 }
 
 

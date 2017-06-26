@@ -17,6 +17,12 @@
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
+.header .rightSide ul .hoverRight:hover {
+  background: #E85C48;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s; }
 
 .hoverDrop a:hover {
   color: #E85C48 !important;
@@ -77,17 +83,17 @@
     .header .rightSide ul {
       display: inline-block;
       margin: 0 auto;
-      padding: 0; }
+      padding: 20px; }
       .header .rightSide ul li {
         list-style: none;
         display: inline-block;
         margin: 0 auto;
-        padding: 5px; }
+        background: lightgray; }
         .header .rightSide ul li a {
           color: black;
           text-decoration: none; }
           .header .rightSide ul li a img {
-            width: 200px;
+            width: 150px;
             height: 50px;
             object-fit: fill; }
 
@@ -113,6 +119,12 @@
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
+.header .rightSide ul .hoverRight:hover {
+  background: #E85C48;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s; }
 
 .hoverDrop a:hover {
   color: #E85C48 !important;
@@ -160,6 +172,12 @@
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
+.header .rightSide ul .hoverRight:hover {
+  background: #E85C48;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s; }
 
 .hoverDrop a:hover {
   color: #E85C48 !important;
@@ -179,6 +197,9 @@
   font-family: myFirstFont;
   src: url("../proximanova-regular-webfont.ttf"); }
 @media screen and (max-width: 1020px) {
+  .navOver {
+    display: none; }
+
   .header {
     display: block;
     padding: 0;
@@ -217,6 +238,9 @@
   font-family: myFirstFont;
   src: url("../proximanova-regular-webfont.ttf"); }
 @media screen and (max-width: 900px) {
+  .navOver {
+    display: none; }
+
   .header .rightSide {
     display: inline-block;
     position: relative;
@@ -224,19 +248,18 @@
     .header .rightSide ul {
       display: inline-block;
       margin: 0 auto;
-      padding: 0; }
+      padding: 20px; }
       .header .rightSide ul li {
         list-style: none;
         display: inline-block;
-        margin: 0 auto;
-        padding-top: 25px; }
+        margin: 0 auto; }
         .header .rightSide ul li a {
           color: black;
           text-decoration: none; }
           .header .rightSide ul li a img {
             width: 100px;
             height: 30px;
-            object-fit: cover; } }
+            object-fit: fill; } }
 @font-face {
   font-family: myFirstFont;
   src: url("../proximanova-regular-webfont.ttf"); }
@@ -256,6 +279,12 @@
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
+.header .rightSide ul .hoverRight:hover {
+  background: #E85C48;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s; }
 
 .hoverDrop a:hover {
   color: #E85C48 !important;
@@ -372,6 +401,12 @@
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
+.header .rightSide ul .hoverRight:hover {
+  background: #E85C48;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s; }
 
 .hoverDrop a:hover {
   color: #E85C48 !important;
@@ -539,6 +574,12 @@
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
+.header .rightSide ul .hoverRight:hover {
+  background: #E85C48;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s; }
 
 .hoverDrop a:hover {
   color: #E85C48 !important;
@@ -709,6 +750,12 @@
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
+.header .rightSide ul .hoverRight:hover {
+  background: #E85C48;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s; }
 
 .hoverDrop a:hover {
   color: #E85C48 !important;
@@ -876,6 +923,12 @@
   -moz-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s; }
+.header .rightSide ul .hoverRight:hover {
+  background: #E85C48;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s; }
 
 .hoverDrop a:hover {
   color: #E85C48 !important;
